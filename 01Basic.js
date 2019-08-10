@@ -9,3 +9,11 @@ console.log('Hello'+' '+'World');
 
 //We can use single quote or double quote to declare a string
 console.log("Hello World Again!")
+
+// Single line comment
+
+/*
+    Multiple lines comment
+    Comment......
+    Comment......
+*/
