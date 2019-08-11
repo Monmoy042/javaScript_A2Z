@@ -12,7 +12,7 @@ console.log(name);
 console.log(typeof(name));
 
 var num = "15"; 
-// Here, num will is a string | Because anything will be consider as a string between double or single quote 
+// Here, num will be a string | Because anything will be consider as a string between double or single quote 
 console.log(num);
 console.log(typeof(num));
 
