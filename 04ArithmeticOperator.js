@@ -24,7 +24,7 @@ console.log('Division of two numbers: '+div);
 
 // Increment
 let x = 10;
-let y = ++x; // This is called prefix operation | y = x+1
+let y = ++x; // This is called prefix operation | y = x + 1
 console.log(y);
 
 let p = 350;
@@ -40,10 +40,10 @@ console.log(b);
 
 let t = 550;
 let m = t--;
-let n = t--; // This is called postfix operation | n = l - 1
+let n = t--; // This is called postfix operation | n = t - 1
 console.log(m);
 console.log(n);
 
 // Modulus
 let mod = num1 % 3;
-console.log(mod); // The remainder is 2
+console.log('The modulus of 128/3 is: '+mod); // The remainder is 2
