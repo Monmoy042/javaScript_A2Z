@@ -38,9 +38,9 @@ let a = 105;
 let b = --a; // This is called prefix operation | b = a - 1
 console.log(b);
 
-let l = 550;
-let m = l--;
-let n = l--; // This is called postfix operation | n = l - 1
+let t = 550;
+let m = t--;
+let n = t--; // This is called postfix operation | n = l - 1
 console.log(m);
 console.log(n);
 
