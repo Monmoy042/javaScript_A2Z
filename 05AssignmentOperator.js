@@ -1,12 +1,12 @@
 // Assignment Operator in javaScript
 
 /*  Operator             Meaning             Description
-    01. x = y            x = y               Assigns the value of y to x
-    02. x += y           x = x + y           Assigns the result of x plus y to x
-    03. x -= y           x = x - y           Assigns the result of x minus y to x
-    04. x *= y           x = x * y           Assigns the result of x times y to x
-    05. x /= y           x = x / y           Assigns the result of x divided by y to x
-    06. x %= y           x = x % y           Assigns the result of x modulus y to x
+    01. x = y            x = y               Assign the value of y to x
+    02. x += y           x = x + y           Assign the result of x plus y to x
+    03. x -= y           x = x - y           Assign the result of x minus y to x
+    04. x *= y           x = x * y           Assign the result of x times y to x
+    05. x /= y           x = x / y           Assign the result of x divided by y to x
+    06. x %= y           x = x % y           Assign the result of x modulus y to x
 */
 
 // x = y
