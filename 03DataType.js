@@ -1,9 +1,11 @@
 // Data Types in javaScript
+
 /*
 1. String 
 2. Number --> [Integer(1,2,31,20) | Float(3.5,1.5) | Double(3.1416)]
 3. Array
 4. Object
+5. Boolean
 */
 
 // String
@@ -12,7 +14,7 @@ console.log(name);
 console.log(typeof(name));
 
 var num = "15"; 
-// Here, num will be a string | Because anything will be consider as a string between double or single quote 
+// Here, num is a string | Because anything will be consider as a string between double or single quote 
 console.log(num);
 console.log(typeof(num));
 
@@ -39,5 +41,21 @@ const product={
 };
 console.log(product.price);
 
-// Here, productName is the key
-// Arduino is the value of that key(productName)
+/*
+    Here, productName is the key
+    Arduino is the value of that key(productName)
+*/
+
+// Boolean
+var bool1 = true;
+console.log(typeof(bool1));
+var bool2 = false;
+console.log(typeof(bool2));
+
+// Undefined
+var u;
+console.log(typeof(u));
+
+// Null
+var v = null;
+console.log(typeof(v));
