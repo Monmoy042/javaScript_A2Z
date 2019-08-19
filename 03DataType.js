@@ -73,7 +73,7 @@ console.log(typeof(v));
 var n = 10;
 var m = n/"name";
 console.log(m);
-console.log(isNaN(bool3)); //Check NanN or not
+console.log(isNaN(bool3)); //Check NaN or not
 
 var sub1 = "Mathematics";
 var sub2 = "English";
