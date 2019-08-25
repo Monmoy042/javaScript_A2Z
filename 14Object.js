@@ -43,8 +43,8 @@ var myPhone ={
     color: 'Black',
     isReleased: true,
     software:{
-        version: 9,
-        kernel:'3.18.91',
+        androidVersion: 9,
+        kernelVersion:'3.18.91',
     },
     hardware:{
         camera:'13 MP',
