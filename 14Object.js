@@ -18,7 +18,7 @@ var student ={
     id: 123456,
     age: '28',
     phone: '01234678910',
-    isGraduated:fase,
+    isGraduated:false,
 };
 // Here, firstName, lastName, age etc. is the properties and John, Doe, 28 etc. is the value of that properties.
 // Note: We can use string, number, array etc. as the value of an object
@@ -34,3 +34,31 @@ newObj.ID = 1234567;
 console.log(newObj);
 console.log(newObj.name);
 console.log(newObj.ID);
+
+var myPhone ={
+    productName: 'Samsung',
+    model:'J7NXT',
+    height: 6 + '"',
+    width: 3.09 + '"',
+    color: 'Black',
+    isReleased: true,
+    software:{
+        version: 9,
+        kernel:'3.18.91',
+    },
+    hardware:{
+        camera:'13 MP',
+        selfieCamera:'5 MP',
+        GPS: true,
+        bluetooth: 4.1,
+        fingerprint:false,
+        battery:'3000mAh',
+        others:['RAM:2GB','ROM:16GB','microUSB2.0',16000],
+    },
+};
+
+console.log(myPhone);
+console.log(myPhone.software);
+console.log(myPhone.hardware.battery);
+console.log(myPhone.hardware.others);
+console.log(myPhone.hardware.others[2]);
