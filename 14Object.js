@@ -18,6 +18,7 @@ var student ={
     id: 123456,
     age: '28',
     phone: '01234678910',
+    isGraduated:fase,
 };
 // Here, firstName, lastName, age etc. is the properties and John, Doe, 28 etc. is the value of that properties.
 // Note: We can use string, number, array etc. as the value of an object
@@ -25,3 +26,11 @@ var student ={
 console.log(student);
 console.log('The age of this student is: '+student.age); // Access a particular information/value from an object
 
+// Another way to declare an object
+var newObj = new Object();
+newObj.name = 'Jane Doe';
+newObj.age = 25;
+newObj.ID = 1234567;
+console.log(newObj);
+console.log(newObj.name);
+console.log(newObj.ID);
