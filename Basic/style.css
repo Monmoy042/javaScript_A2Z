@@ -11,3 +11,9 @@
     margin: 0 auto;
     display: block;
 }
+#clock{
+    /* height:200px; */
+    width:500px;
+    color:red;
+    font-weight: bold;
+}
