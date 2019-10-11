@@ -44,3 +44,19 @@ let maximum = function(x,y,z){
 };
 let result = maximum(650,820,820.5);
 console.log('The result is: '+result);
+
+// Get 2 numbers between 1 and 3
+function randomValue(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+console.log('The random value between 0 and 1 is: '+randomValue(3,1));
+
+//Get random Integer number
+function getRandomInteger(min, max) {
+    min = Math.ceil(min);
+    console.log('The minimum number is: '+min);
+    max = Math.floor(max);
+    console.log('The maximum number is: '+max);
+    return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+  }
+  console.log('The random integer number between 1 and 3 is: '+getRandomInteger(1,3));
