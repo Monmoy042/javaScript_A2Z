@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#test1{
+    color: red;
+    margin: 15px;
+    padding: 5px; 
+    border:5px;
+    border-style: dashed;
+    border-color: black;
+    text-align: justify;
+}
+
+#test2{
+    color: blue;
+    margin: 15px;
+    padding: 5px; 
+    border:5px;
+    border-style: solid;
+    border-color: orange;
+    text-align: justify;
+}
+
+.list1{
+    margin: 10px;
+
+}
+
+#mouseEvent{
+    margin: 15px;
+    padding: 5px;    
+}
+
+.button1{
+    width:150px;
+    height:40px;
+    margin-top: 5px;
+    background-color: brown;
+    color:#fff;
+    text-align: center;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.button1:hover{
+    background-color:#000;
+    color:#fff;
+    transition: 400ms;
+}
+
