@@ -47,4 +47,17 @@ $(document).ready(function () {
     $('.button4').click(function(){
         $('.newP').toggle();
     });
+
+    // Slide Up | Slide Down | Slide Toggle
+    $('.button5').click(function(){
+        $('.newP2').slideUp("slow");
+        // $('.newP2').slideUp(fast);
+        // $('.newP2').slideUp(2000);
+    });
+    $('.button6').click(function(){
+        $('.newP2').slideDown(3000);
+    });
+    $('.button7').click(function(){
+        $('.newP2').slideToggle();
+    });
 });
