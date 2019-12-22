@@ -36,4 +36,15 @@ $(document).ready(function () {
     $('.button1').mouseleave(function () {
         $('.mouseEventP').css('color', 'blue');
     });
+
+    // Hide | Show | Toggle
+    $('.button2').click(function(){
+        $('.newP').hide();
+    });
+    $('.button3').click(function(){
+        $('.newP').show();
+    });
+    $('.button4').click(function(){
+        $('.newP').toggle();
+    });
 });
