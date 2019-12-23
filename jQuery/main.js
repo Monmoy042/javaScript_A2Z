@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function (){
     // alert(1);
     // document.write("Hello World!");
     console.log('Hello World');
@@ -59,5 +59,38 @@ $(document).ready(function () {
     });
     $('.button7').click(function(){
         $('.newP2').slideToggle();
+    });
+
+    // Form Event
+    $('#sName,#sClass,#sCountry').focus(function(){
+        $(this).css('background-color','black');
+        $(this).css('color','white');
+    });
+
+    
+    $('#sName,#sClass,#sCountry').blur(function(){
+        $(this).css('background-color','');
+        $(this).css('color','');
+    });
+    
+
+    $('#sName').change(function(){
+        // $(this).css('background-color','brown');
+        var sname = $(this).val();
+        $('#item1').html(sname);
+    });
+
+    $('#sClass').change(function(){
+        var sclass = $(this).val();
+        $('#item2').html(sclass);
+    });
+
+    $('#sCountry').change(function(){
+        var scountry = $(this).val();
+        $('#item3').html(scountry);
+    });
+
+    $('#sForm').submit(function(){
+        alert('Form Submitted');
     });
 });
