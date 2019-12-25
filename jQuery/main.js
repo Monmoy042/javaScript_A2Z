@@ -39,10 +39,10 @@ $(document).ready(function (){
 
     // Hide | Show | Toggle
     $('.button2').click(function(){
-        $('.newP').hide();
+        $('.newP').hide('slow');
     });
     $('.button3').click(function(){
-        $('.newP').show();
+        $('.newP').show('slow');
     });
     $('.button4').click(function(){
         $('.newP').toggle();
@@ -93,4 +93,9 @@ $(document).ready(function (){
     $('#sForm').submit(function(){
         alert('Form Submitted');
     });
+
+    // Get Method
+    // var h = $('#newP3').html();
+    var h = $('#newP3').text();
+    console.log(h);
 });
