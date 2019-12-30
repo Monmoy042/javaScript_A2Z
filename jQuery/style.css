@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inria Serif', serif;
 }
 
 #test1{
@@ -75,7 +75,7 @@ body{
     border-radius: 10px;
 }
 
-.button2,.button3,.button4,.button5,.button6,.button7,.button8{
+.button2,.button3,.button4,.button5,.button6,.button7,.button8,.button9,.button10,.button11,.button12{
     height: 40px;
     width: 100px;
     margin-top: 5px;
@@ -110,7 +110,17 @@ body{
 #newP3{
     background-color: black;
     color: white;
-    height: 170px;
+    height: 190px;
+    width: 500px;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#newP4,#newP5{
+    background-color: black;
+    color: white;
+    height: 300px;
     width: 500px;
     text-align: justify;
     padding: 15px;

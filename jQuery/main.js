@@ -66,7 +66,6 @@ $(document).ready(function (){
         $(this).css('background-color','black');
         $(this).css('color','white');
     });
-
     
     $('#sName,#sClass,#sCountry').blur(function(){
         $(this).css('background-color','');
@@ -98,4 +97,23 @@ $(document).ready(function (){
     // var h = $('#newP3').html();
     var h = $('#newP3').text();
     console.log(h);
+
+    // Append | Prepend 
+    $(".button9").click(function(){
+        $("#newP4").append("<h2>Hello World</h2>");
+    });
+
+    $(".button10").click(function(){
+        $("#newP4").prepend("<h2>Hello World</h2>");
+    });
+
+    // Before | After
+    $('.button11').click(function(){
+        $('#newP5').before('<h3>Before:Text included</h3>');
+    });
+    
+    $('.button12').click(function(){
+        $('#newP5').after('<h3>After:Text included</h3>');
+    });
+
 });
