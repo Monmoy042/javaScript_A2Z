@@ -4,6 +4,7 @@
     2. else
     3. else if
     4. switch
+    5. ternary operator
 */
 
 // if
@@ -69,3 +70,11 @@ switch(grade){
     break;
     default: console.log('Unknown Grade');
 }
+
+// Ternary Operator in JS
+var age = 26;
+var drink = (age >= 21) ? 'Beer' : 'Juice';
+console.log(drink);
+
+var jor = num % 2  == 0 ? 'Even Number' : 'Odd number';
+console.log(jor);
