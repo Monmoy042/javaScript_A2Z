@@ -11,7 +11,7 @@ var arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arr1.indexOf(5));
 console.log("The index number of 7 is: " + arr1.indexOf(7));
 
-console.log('The total elements of this array are: ' + arr1.length);
+console.log("The total elements of this array are: " + arr1.length);
 
 // Push and pop
 var arr2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
@@ -33,3 +33,18 @@ console.log("Remove the first element from the cats: " + cats);
 
 cats.unshift("Polu", "Mikey");
 console.log(cats);
+
+// Slice Operation
+/* 
+    Slice operation helps us to split the array 
+*/
+
+var days = ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"];
+console.log("Before Slice: " + days);
+var sliceDays = days.slice(3);
+console.log("After Slice: " + sliceDays);
+
+var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
+console.log("Before Slice: " + months);
+var sliceMonth = months.slice(2, 4);
+console.log("After Slice: " + sliceMonth);
