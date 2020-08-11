@@ -41,3 +41,16 @@ function factRecursive(num2) {
 }
 var result = factRecursive(5);
 console.log("The factorial is: " + result);
+
+// Diagnostic of recursive method while find out the factorial
+/*
+    Let's say we want to find out the factorial of 4
+    Basic Formula: n! = n*(n-1)!
+                 Return         State
+===============================================
+    F(4)         4*F(3)--> 24    Pause         
+    F(3)         3*F(2)--> 6     Pause
+    F(2)         2*F(1)--> 2     Pause
+    F(1)         1*F(0)--> 1     Return 1 
+
+*/
