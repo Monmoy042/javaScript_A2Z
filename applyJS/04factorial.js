@@ -7,3 +7,37 @@ var findFactorial = function (n) {
   }
 };
 findFactorial(10);
+
+// Find out factorial recursive way
+var recursiveFactorial = function (num) {
+  if (num == 0) {
+    return 1;
+  } else {
+    var fact = 1;
+    for (var i = num; i >= 1; i--) {
+      fact = fact * i;
+      console.log(i, fact);
+    }
+  }
+};
+recursiveFactorial(5);
+
+/*
+0! = 1
+2! = 1*2
+3! = 1*2*3 = 2!*3 = (3-1)!*3
+4! = 1*2*3*4 = 3!*4 = (4-1)!*4
+5! = 1*2*3*4*5 = 4!*5 = (5-1)!*5
+6! = 1*2*3*4*5*6 = 5!*6 = (6-1)!*5
+n! = (n-1)! * n [General Formula]
+*/
+
+function factRecursive(num2) {
+  if (num2 == 0) {
+    return 1;
+  } else {
+    return num2 * factRecursive(num2 - 1);
+  }
+}
+var result = factRecursive(5);
+console.log("The factorial is: " + result);
