@@ -26,7 +26,21 @@ element = document.getElementsByTagName('p')[0];
 console.log(element);
 */
 
-
-
-
-
+/*
+########### Set value and Get value############//#
+What we can get with DOM?
+1) HTML
+2) Text
+3) Attribute
+DOM Get Methods
+----------------
+A. innerText
+B. innerHTML
+C. getAttribute
+D. getAttributeNode
+E. Attribute
+*/
+var h1Text;
+// h1Text = document.getElementById('newText').innerText;
+h1Text = document.getElementById('newText').innerHTML;
+console.log(h1Text);
